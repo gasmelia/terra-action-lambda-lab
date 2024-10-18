@@ -5,8 +5,8 @@ Deploy AWS Lambda function with Terraform via GitHub Actions CI/CD
 VisualStudio Code - Terraform - GitHub Actions - AWS Lambda - Python code
 
 ## Steps
-1 - Create AWS lambda function
-2 - Create .github/workflows folder and lambda_deplyment.yml file
+- Create AWS lambda function.
+- Create .github/workflows folder and lambda_deplyment.yml file.
 
 
 
@@ -14,4 +14,10 @@ References:
 https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lambda_function.html
 
 https://github.com/marketplace/actions/aws-lambda-deploy
+
+https://github.com/marketplace/actions/hashicorp-setup-terraform
+
+https://github.com/marketplace/actions/visual-studio-code-terraform
+
+
 
