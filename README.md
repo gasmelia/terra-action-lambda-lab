@@ -11,4 +11,7 @@ VisualStudio Code - Terraform - GitHub Actions - AWS Lambda - Python code
 
 
 References:
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lambda_function.html
+
 https://github.com/marketplace/actions/aws-lambda-deploy
+
