@@ -6,12 +6,12 @@ on:
   
 jobs:
   terraform:
-      name: Terraform AWS
-      runs-on: ubuntu-latest
-      environment: dev
-
-      steps:
+    name: Terraform AWS
+    runs-on: ubuntu-latest
+    environment: dev
     
+    steps:
+      
       - name: Checkout
         uses: actions/checkout@v2 
 
@@ -40,5 +40,5 @@ jobs:
         continue-on-error: true
         
       - name: Terraform Apply
-        if: github.ref == 'refs/heads/main' && giythub.event_name == 'push'
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         run: terraform apply -auto-approve  -input=false -no-color
