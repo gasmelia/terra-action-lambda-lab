@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
   
-  jobs:
+  job:
   - name: Terraform AWS
     runs-on: ubuntu-latest
     steps:
